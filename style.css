@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;700&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url("still-life-say-no-fast-fashion.jpg"); */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  font-family: "Lobster", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  /* opacity: 1; */
+}
+.skip_offer {
+  font-size: 12px;
+  margin-top: 6px;
+  width: 100%;
+  height: 18px;
+  /* position: fixed; */
+}
+.skip_offer p {
+  text-align: center;
+  color: black;
+}
+.skip_offer p a {
+  color: black;
+}
+.faa {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.logo {
+  font-size: 20px;
+  margin-right: 50px;
+}
+.nav {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav_bar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 8px;
+}
+
+.hero_section {
+  display: flex;
+  position: relative;
+  top: -50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  border-radius: 25%;
+}
+.new_arrive {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+.gift_title {
+  margin-left: 150px;
+  margin-top: 70px;
+  font-family: "Roboto", sans-serif;
+}
+.gift-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+.cols {
+  margin-bottom: 20px;
+}
+/*-----------Footer-------------------------------------*/
+
+.footers {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 0; 
+  padding: 5px; 
+  background: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 300px;
+}
+.footer-item{
+    background-color: transparent;
+    padding: 30px;
+}
+.footers ul li a{
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+.footers ul li{
+    list-style: none;
+}
+.footers p{
+    color: whitesmoke;
+    margin-left: 19px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#menu-icon {
+    display: none;
+    cursor: pointer;
+}
+#close-btn {
+    display: none;
+}
+@media only screen and (max-width: 414px){
+    .logo{
+        font-size: 14px;
+        margin-left: 100px;
+    }
+    nav a {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        z-index: 1;
+    }
+    nav a.show {
+        display: flex;
+    }
+    #close-btn {
+        display: none;
+        cursor: pointer;
+    }
+    #menu-icon {
+        display: block;
+    }
+
+}
+    
+
+
+
+
