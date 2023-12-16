@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;700&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url("still-life-say-no-fast-fashion.jpg"); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* opacity: 1; */
+}
+.mens_home{
+    display: flex;
+    position: relative;
+    top: -50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border-radius: 25%;
+}
