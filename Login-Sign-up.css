@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;700&family=Roboto:wght@300&display=swap");
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url(Login-form\ -image.jpg); */
+    background-position: center;
+    opacity: 0.8;
+    font-family: "Lobster", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(197, 175, 175); 
+}
+.nav{
+    /* padding: 100px; */
+    margin-bottom: -100px;
+    color: white;
+}
+.nav_bar{
+    color: white;
+}
+.login-form{
+    position: relative;
+    box-shadow: 0 0 2px 2px lightgray;
+    margin-left: 100px;
+    margin-top: 190px;
+    margin-bottom: 140px;
+    width: 380px;
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 25px;
+    /* border: 1px solid black; */
+    padding: 30px 40px;
+}
+.login-form h2{
+    font-size: 26px;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+}
+.login-form .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(197, 197, 197); */
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #000000;
+
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.login-form .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    /* font-size: px; */
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    font-size: 10px;
+    accent-color: transparent;
+    /* margin-right: 3px; */
+}
+.remember-forgot label{
+    font-size: 12px;
+}
+.remember-forgot a{
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.login-form .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.login-form .register-link{
+    /* font-size: 10px; */
+    /* font-synthesis-weight: 14.5px; */
+    text-align: center;
+    margin-top: 20px;
+}
+.register-link p a{
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p{
+    font-size: 14px;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+#signup{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: -110;
+}
+
+

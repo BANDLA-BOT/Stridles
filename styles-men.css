@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;700&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* margin: auto 100px; */
+  background-size: cover;
+  font-family: "Lobster", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.movetohome{
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.movetohome button{
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+.movetohome button .movearrow{
+    scroll-behavior: smooth;
+    color: black;
+    top: -6px;
+    left: 18px;
+    position: absolute;
+    align-items: center;
+}
+
+.mens-home-image{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.mens-home-image h1{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-family: "Oswald", sans-serif
+}
+.mens-snkr h1{
+    margin-top: 100px;
+}
+
+.home-image{
+    border-radius: 25px;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.products {
+  line-height: 2px;
+  /* padding: 5px; */
+  margin: 40px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.products-details img {
+  box-shadow: 0 0 black;
+  border-radius: 25px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: transform 0.3s;
+}
+.products-details img:hover{
+    opacity: 1;
+    transform: translateY(-5px)
+}
+.products-details h3 {
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.products-details p {
+  color: rgb(122, 108, 108);
+  font-size: 16px;
+}
+.products-details .mrp {
+  color: black;
+  font-size: 18px;
+}
+.products-details .liked {
+  border: none;
+  background-color: transparent;
+}
+.products-details .buttons {
+    margin-bottom: 20px;
+  opacity: 0.6;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  background-color: #333;
+  color: white;
+  width: 30%;
+  height: 30px;
+  transition: all 0.3s;
+}
+.products-details .buttons:hover {
+  opacity: 1;
+}
+.shopped{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
